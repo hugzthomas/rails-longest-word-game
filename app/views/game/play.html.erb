@@ -1,0 +1,16 @@
+
+
+<div class="container text-center" id="guess-form">
+<div id="random">
+  <%= @grid.join("") %>
+  </div>
+<form class="form-inline text-center" action="score">
+  <div class="form-group">
+    <label for="exampleInputName2">GO</label>
+    <input type="text" class="form-control" name="attempt" id="exampleInputName2" placeholder="...">
+    <input type="text" class="hidden" name="starting_time" value="<%= Time.now %>">
+    <input type="hidden" name="grid" value="<%= @grid.join('') %>">
+  </div>
+   <button type="submit" class="btn btn-success">Send</button>
+</form>
+</div>

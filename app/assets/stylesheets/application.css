@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+#guess-form {
+  margin-top: 200px;
+  padding: 50px;
+  width: 500px;
+  background-color: #344A61;
+  color: white;
+  border-radius: 10px;
+}
+
+#results {
+  margin-top: 200px;
+  padding: 50px;
+  width: 500px;
+  background-color: #344A61;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid #5CB85C;
+}
+
+#random {
+  margin-bottom: 15px;
+}
